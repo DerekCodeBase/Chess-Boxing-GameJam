@@ -1,0 +1,146 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "BasicControls",
+            "id": "dfef5ef7-a69d-4cc7-847d-72703b17d3ec",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Value",
+                    "id": "8569b6cd-5b87-4589-8246-d1cdb6bc6305",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3dfacf1b-a242-4211-bee6-c8010be82483",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6b619d1-1ba1-4622-8952-a5e1e25f33f0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FightControls",
+            "id": "67e1004f-8414-4ae1-afcd-d6ddec76a784",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "53416d1b-562f-4649-ad7c-145125955e2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "84a96f9b-5be3-4171-a93d-56a95f2877de",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "DialogueControls",
+            "id": "2ce8ad53-a97d-424d-b5ab-446b124a2265",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "b045cd6c-30a6-4835-8bfb-00b3767d4045",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bdd5f781-e7dc-483f-a744-d907ba0d413f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RoomControls",
+            "id": "af62c29a-5524-465c-a28b-c69368d37494",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "cd15aea5-2a2e-48ec-9e06-d416f112c3bc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c2a08a66-3969-4c97-8f6b-541b356062c0",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
